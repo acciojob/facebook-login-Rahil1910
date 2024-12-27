@@ -6,21 +6,21 @@ body{
 	align-items:center;
 	height:100vh;
 }
-#left{
+.left{
 	margin-left:30px;
 	width:450px;
 	margin-top:70px;
 	display:inline-block;
 	text-align:center;
 }
-#left img{
+.left img{
 	width:300px;
 }
-#left p{
+.left p{
 	font-size:small;
 	margin-top:0;
 }
-#right{
+.right{
 	width:300px;
 	background-color:white;
 	padding:20px;
@@ -30,7 +30,7 @@ body{
 	flex-direction:column;
 	gap:10px;
 }
-#right form{
+.right form{
 	width:300px;
 	background-color:white;
 	border-radius:5px;
@@ -38,12 +38,12 @@ body{
 	flex-direction:column;
 	gap:10px;
 }
-#right form input{
+.right form input{
 	border:1px solid #ccc;
 	border-radius:5px;
 	padding:10px;
 }
-#right form button{
+.right form button{
 	background-color:#1877f2;
 	border-radius:5px;
 	padding:10px 20px;
